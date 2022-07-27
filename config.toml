@@ -1,7 +1,7 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = "Kyle's Picks"
-theme = "digitalgarden"
+theme = "PaperMod"
 [menu]
 [[menu.main]]
   name = 'Home'
