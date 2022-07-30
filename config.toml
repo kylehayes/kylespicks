@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://kyles-picks.onrender.com/'
 languageCode = 'en-us'
 title = "Kyle's Picks"
 theme = "PaperMod"
@@ -9,5 +9,9 @@ theme = "PaperMod"
   weight = 1
 [[menu.main]]
   name = 'Picks'
-  url = '/picks'
+  url = '/categories/picks'
   weight = 2
+[[menu.main]]
+  name = 'Products'
+  url = '/tags/'
+  weight = 3 
