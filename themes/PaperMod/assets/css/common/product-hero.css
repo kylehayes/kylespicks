@@ -1,0 +1,37 @@
+.product-hero {
+  border: 2px solid lightgrey;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px 0;
+  height: 200px;
+  width: 450px;
+}
+
+.product-meta {
+  margin-left: 10px;
+}
+
+.post-content {
+  clear: both;
+}
+
+.product-hero .product-image {
+  float: left;
+}
+
+.product-hero .name-url a {
+  font-size: 22px;
+  font-weight: bold;
+  border-bottom: 1px solid;
+}
+
+.product-hero .merchant {
+  margin: 15px 0;
+}
+
+.product-hero .merchant a {
+  background-color: rgb(14, 110, 255);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+}

@@ -27,6 +27,26 @@
   {{- partial "toc.html" . }}
   {{- end }}
 
+  {{- if .Params.product_url }}
+  <div class="product-hero">
+    {{- if .Params.image }}
+    <div class="product-image">
+      <img height="180" src="{{ .Params.image }}">
+    </div>
+    {{- end }}
+    <div class="product-meta">
+      <div class="name-url">
+        {{- if .Params.zerowaste }}<span title="Zero waste friendly">🌿</span>{{- end }}
+        <a href="{{ .Params.product_url }}">{{ .Params.product_name }}</a></div>
+      {{- if .Params.product_variation }}
+      <div class="variation"><em>{{ .Params.product_variation }}</em></div>
+      {{- end }}
+      <div class="brand">Brand: {{ .Params.brand }}</div>
+      <div class="merchant"><a href="{{ .Params.product_url }}">From {{ .Params.merchant }}</a></div>
+    </div>
+  </div>
+  {{- end }}
+
   {{- if .Content }}
   <div class="post-content">
     {{- if not (.Param "disableAnchoredHeadings") }}

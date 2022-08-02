@@ -1,0 +1,20 @@
+baseURL: "https://kyles-picks.onrender.com/"
+languageCode: en-us
+title: Kyle's Picks
+theme: PaperMod
+menu:
+  main:
+    - name: Home
+      url: /
+      weight: 1
+    - name: Picks
+      url: /categories/picks
+      weight: 2
+    - name: Products
+      url: /tags/
+      weight: 3
+frontmatter:
+  lastmod:
+    - lastmod
+  product_url:
+    - product_url
