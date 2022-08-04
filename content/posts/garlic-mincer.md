@@ -5,8 +5,8 @@ categories: [Picks]
 product_name: Garlic Mincer
 product_url: https://www.amazon.com/Garlic-Twister-4th-Generation-Clear/dp/B0796N2GN4/
 product_variation: Clear
-images: [/images/garlic-mincer.jpeg]
-image: /images/garlic-mincer.jpeg
+images: [/images/garlic-mincer.png]
+image: /images/garlic-mincer.png
 merchant: Amazon
 zerowaste: false
 brand: NexTrend
