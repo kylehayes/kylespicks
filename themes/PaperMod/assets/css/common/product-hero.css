@@ -35,3 +35,10 @@
   padding: 10px 20px;
   border-radius: 10px;
 }
+
+.product-hero .brand a {
+  background-color: rgb(14, 110, 255);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
